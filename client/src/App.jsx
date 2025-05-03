@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import { useLocation } from "react-router-dom";
 
 const App = () => {
-  return <div className="font-bold text-blue-700">
-    <h1 className="text-3xl font-bold underline">App</h1>
-  </div>;
+  const isOwnerPath = useLocation().pathname.includes("owner");
+
+  return (
+    <div className="font-bold text-blue-700">{!isOwnerPath && <Navbar />}</div>
+  );
 };
 
 export default App;
