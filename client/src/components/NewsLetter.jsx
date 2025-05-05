@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const NewsLetter = () => {
   return (
-    <div className="flex flex-col items-center max-w-5xl lg:w-full rounded-2xl px-4 py-12 md:py-16 mx-2 lg:mx-auto my-30 bg-white/90 ">
+    <div className="flex flex-col border border-gray-300 shadow-lg items-center max-w-5xl lg:w-full rounded-2xl px-4 py-12 md:py-16 mx-2 lg:mx-auto my-30 bg-white/90 ">
       <Title
         title="Stay Inspired"
         subTitle="John our newsletter and be the first to discover new destinations, exclusive offers, and travel inspiration."
