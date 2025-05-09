@@ -26,11 +26,11 @@ const App = () => {
           <Route path="/rooms/:id" element={<RoomDetails />} />
           <Route path="/my-bookings" element={<MyBookings />} />
           {/* hotel owner routes setup  */}
-          <Route path="/owner" element={<Layout/>}>
-          <Route index element={<Dashboard/>} />
-          <Route path="add-room" element={<AddRoom/>} />
-          <Route path="list-room" element={<ListRoom/>} />
-          </Route> 
+          <Route path="/owner" element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path="add-room" element={<AddRoom />} />
+            <Route path="list-room" element={<ListRoom />} />
+          </Route>
         </Routes>
       </div>
       <Footer />
