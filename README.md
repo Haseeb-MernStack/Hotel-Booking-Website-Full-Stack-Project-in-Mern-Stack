@@ -1,10 +1,10 @@
-# Hotel Booking App (Full Stack)
+# QuickStay Hotel Website
 
-This project is a full-stack application for hotel booking, built using React.js for the frontend and a backend of your choice (e.g., Node.js, Express, etc.).
+This project, **QuickStay**, is a full-stack hotel booking application. Currently, I have built the frontend using **React.js**, **TailwindCSS**, and **Clerk** for authentication. The backend will be added in the future to make this project even more awesome!
 
 ## Project Routes
 
-Below is a list of updated routes used in the project:
+Below is a list of routes used in the project. You can check out the code for route setup in the `App.jsx` and `main.jsx` files.
 
 ### Frontend Routes
 
@@ -15,7 +15,7 @@ Below is a list of updated routes used in the project:
 - `/login` - User login page
 - `/register` - User registration page
 
-### Backend API Routes
+### Backend API Routes (Planned)
 
 - `GET /api/hotels` - Fetch all hotels
 - `GET /api/hotels/:id` - Fetch details of a specific hotel
@@ -23,3 +23,9 @@ Below is a list of updated routes used in the project:
 - `GET /api/bookings` - Fetch all bookings
 - `POST /api/auth/login` - User login
 - `POST /api/auth/register` - User registration
+
+## Current Status
+
+At this time, I have built just the **frontend** for this project. The backend will be developed later to complete the full-stack functionality.
+
+## Made with ❤️
